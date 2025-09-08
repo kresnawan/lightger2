@@ -6,7 +6,6 @@ import { useCallback } from 'react';
 import Navbar from '../components/Navbar';
 import './Dashboard.css';
 import { useAuth } from '../AuthContext';
-import 'dot'
 
 export default function Dashboard() {
 

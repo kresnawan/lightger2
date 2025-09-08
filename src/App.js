@@ -3,7 +3,7 @@ import Login from "./pages/Login.js";
 import Dashboard from "./pages/Dashboard.js";
 import Register from "./pages/Register.js";
 import Insert from "./pages/Insert.js";
-import ProtectedRoute from "./ProtectedRoute.js";
+import Statistics from "./pages/Statistics.js";
 
 function App() {
 
@@ -17,6 +17,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/insert" element={ <Insert /> } />
+        <Route path="/stats" element={ <Statistics /> } />
 
       </Routes>
     

@@ -21,7 +21,7 @@ export default function Navbar() {
             <Link style={{textDecoration:'none', color: 'black'}}>Lightger2</Link>
             <Link to='/'>Dashboard</Link>
             <Link to='/insert'>Insert</Link>
-            <Link to='/stat'>Statistic</Link>
+            <Link to='/stats'>Statistic</Link>
             <Link>
                 <button onClick={handleLogout}>Logout</button>
             </Link>
